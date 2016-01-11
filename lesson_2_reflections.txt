@@ -5,3 +5,6 @@ It creates the .git folder which enables git functions.
 Working directory is saved on local disk and not in git yet.
 Staging area is the temporary collection of files you want to add to your next commit
 The repository is where all your previous commits are saved.
+
+- How can you use the staging area to make sure you have one commit per logical change?
+Only use the 'git add' command per logical change and then commit that change before adding new files to the staging area.
