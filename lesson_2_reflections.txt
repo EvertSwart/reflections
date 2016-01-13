@@ -1,27 +1,27 @@
 - What happens when you initialize a repository? Why do you need to do it?
-It creates the .git folder which enables git functions.
+	It creates the .git folder which enables git functions.
 
 - How is the staging area different from the working directory and the repository? What value do you think it offers?
-Working directory is saved on local disk and not in git yet.
-Staging area is the temporary collection of files you want to add to your next commit
-The repository is where all your previous commits are saved.
+	Working directory is saved on local disk and not in git yet.
+	Staging area is the temporary collection of files you want to add to your next commit
+	The repository is where all your previous commits are saved.
 
 - How can you use the staging area to make sure you have one commit per logical change?
-Only use the 'git add' command per logical change and then commit that change before adding new files to the staging area.
+	Only use the 'git add' command per logical change and then commit that change before adding new files to the staging area.
 
 - What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-If you want to make an expiremental change and don't want to necessarily continue on that path. So you have your main branch and the experimental branch. When the expiremental branch doesn't work out you can continue on your main branch. When it does work out you can merge the experimental branch with the main branch.
+	If you want to make an expiremental change and don't want to necessarily continue on that path. So you have your main branch and the experimental branch. When the expiremental branch doesn't work out you can continue on your main branch. When it does work out you can merge the experimental branch with the main branch.
 
 - How do the diagrams help you visualize the branch structure?
-You can see the parents and you can determine if the current commits are reachable if you move to another branch
+	You can see the parents and you can determine if the current commits are reachable if you move to another branch
 
 - What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
-Create one repository with changes from both branches added (merged) together.
+	Create one repository with changes from both branches added (merged) together.
 
 - What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
-Pros of automatic: less work
-cons of automatic: conflicts can occur
+	Pros of automatic: less work
+	cons of automatic: conflicts can occur
 
-Pros of manual: no conflicts will occur, or at least you can solve the conflicts
-cons of manual: takes a lot more work
+	Pros of manual: no conflicts will occur, or at least you can solve the conflicts
+	cons of manual: takes a lot more work
 
