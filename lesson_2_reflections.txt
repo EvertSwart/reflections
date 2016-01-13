@@ -17,3 +17,11 @@ You can see the parents and you can determine if the current commits are reachab
 
 - What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 Create one repository with changes from both branches added (merged) together.
+
+- What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros of automatic: less work
+cons of automatic: conflicts can occur
+
+Pros of manual: no conflicts will occur, or at least you can solve the conflicts
+cons of manual: takes a lot more work
+
