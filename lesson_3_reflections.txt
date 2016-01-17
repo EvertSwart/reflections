@@ -9,3 +9,6 @@
 
 - What is the benefit of having a copy of the last known state of the remote stored locally?
 	If you go offline for a while you have the most recent repository available to you. 
+
+- How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+	Using dropbox and email or file sharing websites. Github would be a lot easier since you're able to work on the same thing simultaniously without having to wait for another person to finish their section first.
