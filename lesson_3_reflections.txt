@@ -12,3 +12,6 @@
 
 - How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 	Using dropbox and email or file sharing websites. Github would be a lot easier since you're able to work on the same thing simultaniously without having to wait for another person to finish their section first.
+
+- When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+	When you have an experimental change or want to try something out.
